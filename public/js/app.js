@@ -125,10 +125,7 @@ if (!isNaN(age) && age.trim() !==age) {
 }
 let password= prompt("Can you enter your password ")
 
-// let specialCharacters = /[@#*-+/]/;
-// if (/\s/.test(password)) {
-//     console.log("try again");
-//   }
+
 // while(password.length < 7) {
 //      password= prompt("Can you enter your password ")
 
