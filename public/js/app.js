@@ -85,27 +85,26 @@ class BankAccount {
    
  }
   
-// //    let account=new BankAccount(fullName,email,age);
-//    Database.push(account);
+//    let account=new BankAccount(fullName,email,age);
+   Database.push(account);
   
-// let Choose=prompt("Can you choose between Sign Up or Log In or Change password")
+let Choose=prompt("Can you choose between Sign Up or Log In or Change password")
 
-// if (Choose=="Sign Up") {
-//     let fullname = prompt("Can you enter your Full Name")
-//     // function ValidationOfname(fullname) {
-//     let nospace = fullname.trim();
-//     let split = nospace.split(" ")
-//     let string =split.map(el => el[0].toUpperCase() + el.slice(1).toLowerCase()).join(" ") 
-//     console.log(string);
-//     let lengthofstring =""
-//     while(lengthofstring<5) {
-//         lengthofstring = lengthofstring.split(" ").join("").length;
-//         lengthofstring= prompt("Can you enter your Full Name")
+if (Choose=="Sign Up") {
+    let fullname = prompt("Can you enter your Full Name")
+    let nospace = fullname.trim();
+    let split = nospace.split(" ")
+    let string =split.map(el => el[0].toUpperCase() + el.slice(1).toLowerCase()).join(" ") 
+    console.log(string);
+    let lengthofstring =""
+    while(lengthofstring<5) {
+        lengthofstring = lengthofstring.split(" ").join("").length;
+        lengthofstring= prompt("Can you enter your Full Name")
 
         
-//     }
+    }
 
-// // }  
+}  
 // let email=prompt("Can you enter your email")
 
 // while (email.trim()!==email) {
