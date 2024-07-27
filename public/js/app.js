@@ -130,7 +130,7 @@ while(password.length < 7) {
      password= prompt("Can you enter your password ")
 
  }
-//  let specialCharact = ['@', '#', '*', '-', '+', '/'];
+ let specialCharact = ['@', '#', '*', '-', '+', '/'];
 
 //   for (let i = 0; i < password.length; i++) {
 //     if (specialCharact.includes(password[i])) {
