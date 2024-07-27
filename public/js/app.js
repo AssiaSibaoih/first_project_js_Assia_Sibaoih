@@ -85,8 +85,7 @@ class BankAccount {
    
  }
   
-//    let account=new BankAccount(fullName,email,age);
-   Database.push(account);
+  
   
 let Choose=prompt("Can you choose between Sign Up or Log In or Change password")
 
@@ -105,16 +104,16 @@ if (Choose=="Sign Up") {
     }
 
 }  
-// let email=prompt("Can you enter your email")
+let email=prompt("Can you enter your email")
 
-// while (email.trim()!==email) {
-//    alert("there are spaces at the beginning, end, or in the middle")
-//     email=prompt("Can you enter your email")
+while (email.trim()!==email) {
+   alert("there are spaces at the beginning, end, or in the middle")
+    email=prompt("Can you enter your email")
 
         
        
-//     }
-// }
+    }
+
 
 // let age= prompt("Can you enter your age ")
 // if (!isNaN(age) && age.trim() !==age) {
