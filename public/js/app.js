@@ -126,10 +126,10 @@ if (!isNaN(age) && age.trim() !==age) {
 let password= prompt("Can you enter your password ")
 
 
-// while(password.length < 7) {
-//      password= prompt("Can you enter your password ")
+while(password.length < 7) {
+     password= prompt("Can you enter your password ")
 
-//  }
+ }
 //  let specialCharact = ['@', '#', '*', '-', '+', '/'];
 
 //   for (let i = 0; i < password.length; i++) {
