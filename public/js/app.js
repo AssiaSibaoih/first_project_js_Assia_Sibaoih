@@ -132,11 +132,11 @@ while(password.length < 7) {
  }
  let specialCharact = ['@', '#', '*', '-', '+', '/'];
 
-//   for (let i = 0; i < password.length; i++) {
-//     if (specialCharact.includes(password[i])) {
-//       console.log("Good"); 
-//     }
-//   }
+  for (let i = 0; i < password.length; i++) {
+    if (specialCharact.includes(password[i])) {
+      console.log("Good"); 
+    }
+  }
 
 
 
