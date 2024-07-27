@@ -115,14 +115,14 @@ while (email.trim()!==email) {
     }
 
 
-// let age= prompt("Can you enter your age ")
-// if (!isNaN(age) && age.trim() !==age) {
-//     age = prompt("Enter your age:");
+let age= prompt("Can you enter your age ")
+if (!isNaN(age) && age.trim() !==age) {
+    age = prompt("Enter your age:");
 
-// } else if (age < 0 || age >= 100) { 
-//     console.log("Age must be between 0 and 99.");
-//     age = prompt("Enter your age:");
-// }
+} else if (age < 0 || age >= 100) { 
+    console.log("Age must be between 0 and 99.");
+    age = prompt("Enter your age:");
+}
 // let password= prompt("Can you enter your password ")
 
 // let specialCharacters = /[@#*-+/]/;
