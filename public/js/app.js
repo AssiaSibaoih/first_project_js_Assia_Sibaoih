@@ -123,7 +123,7 @@ if (!isNaN(age) && age.trim() !==age) {
     console.log("Age must be between 0 and 99.");
     age = prompt("Enter your age:");
 }
-// let password= prompt("Can you enter your password ")
+let password= prompt("Can you enter your password ")
 
 // let specialCharacters = /[@#*-+/]/;
 // if (/\s/.test(password)) {
